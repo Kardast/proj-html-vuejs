@@ -20,6 +20,7 @@
       <!-- Section 1 Award-->
       <section>
 
+        <MyAwardSection/>
       </section>
 
       <!-- Section 2 Full-Service -->
@@ -53,14 +54,14 @@
 <script>
 import MyHeader from './components/MyHeader.vue'
 import MyJumbo from './components/MyJumbo.vue'
-
-undefined
+import MyAwardSection from './components/MyAwardSection.vue'
 
 export default {
   name: 'App',
   components: {
     MyHeader,
-    MyJumbo
+    MyJumbo,
+    MyAwardSection
 }
 }
 </script>
