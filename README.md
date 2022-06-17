@@ -39,12 +39,6 @@ Non ci sono API da interrogare, ma create i dati a mano nel vostro js.
 Deadline
 Martedi (21/06, il prossimo) ore 18.00
 
-Supporto
-oggi pome e lunedi tutto il giorno
-potrete prenotare uno slot al giorno di 10 minuti con un insegnante per poter porre domande di approfondimento/chiarimento sul progetto.
-Pushate almeno 15 minuti prima del vostro appuntamento con un insegnante e preparate prima le vostre domande è importante arrivare con le idee chiare per poter ricevere il massimo supporto.
-Ricordate avete 10 minuti a testa, potrete chiedere un numero limitato di consigli.
-
 Non sarà possibile invece aprire le consuete richieste Hotwell e non avrete supporto l’ultimo giorno di progetto (il giorno della deadline).
 
 Presentazione dei progetti:
@@ -81,7 +75,35 @@ di non perdere versioni del vostro lavoro.
 Il vostro datore di lavoro venerdì pretenderà di ricevere il lavoro commissionato, nella vita lavorativa non è possibile dire “ho perso il lavoro svolto”;
 di ricevere una migliore assistenza e valutazione da parte dei vostri insegnanti che controlleranno i vostri lavori durante tutto lo svolgimento del progetto.
 
-Come affrontare il lavoro
-Affrontate il progetto a mente serena allontanando ogni ansia, divertitevi mentre mettete in pratica i concetti imparati fino ad ora, focalizzate il vero obiettivo: domani questa sarà la vostra giornata tipo.
+Supporto
+oggi pome e lunedi tutto il giorno
+potrete prenotare uno slot al giorno di 10 minuti con un insegnante per poter porre domande di approfondimento/chiarimento sul progetto.
+Pushate almeno 15 minuti prima del vostro appuntamento con un insegnante e preparate prima le vostre domande è importante arrivare con le idee chiare per poter ricevere il massimo supporto.
+Ricordate avete 10 minuti a testa, potrete chiedere un numero limitato di consigli.
 
-In bocca al lupo e buon divertimento! :v::faccia_nerd:
+
+TABELLA DI MARCIA:
+
+dopo aver creato la struttura base e lo schema disegnato iniziare a creare i componenti che ti serviranno e a definire gli spazi magari con l'utilizzo di colori
+
+fare header con spazi e ide di dove andranno i links ma senza js per Organizzazione
+
+pushare
+
+passare al jumbo 
+
+pushare
+
+fare le sezioni del main 
+
+pushare
+
+creare il footer e fare come per l'header
+
+pushare
+
+dare le funzionalità js a header e footer
+
+pushare
+
+pensare alla presentazione funzionale
