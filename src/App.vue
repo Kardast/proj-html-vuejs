@@ -26,6 +26,7 @@
       <!-- Section 2 Full-Service -->
       <section>
 
+        <MyServiceSolution/>
       </section>
 
       <!-- Section 3 Move -->
@@ -55,13 +56,15 @@
 import MyHeader from './components/MyHeader.vue'
 import MyJumbo from './components/MyJumbo.vue'
 import MyAwardSection from './components/MyAwardSection.vue'
+import MyServiceSolution from './components/MyServiceSolution.vue'
 
 export default {
   name: 'App',
   components: {
     MyHeader,
     MyJumbo,
-    MyAwardSection
+    MyAwardSection,
+    MyServiceSolution
 }
 }
 </script>
