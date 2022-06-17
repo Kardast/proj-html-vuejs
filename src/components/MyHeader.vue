@@ -22,6 +22,14 @@
 
       <div class="hbottom-wrapper">
 
+        <div class="logo">
+          logo
+        </div>
+
+        <ul class="links">
+          <li><a href="#">link</a></li>
+          <li><a href="#">link</a></li>
+        </ul>
       </div>
     </div>
   </div>
@@ -66,7 +74,13 @@ export default {
       .socials{
         width: 50%;
         display: flex;
+        align-items: center;
+        justify-content: end;
         list-style: none;
+
+        a{
+          text-decoration: none;
+        }
       }
     }
   }
@@ -81,8 +95,27 @@ export default {
       width: 80%;
       height: 100%;
       margin: 0 auto;
+      display: flex;
       // debug
       background-color: rgb(55, 55, 139);
+
+      .logo{
+        width: 30%;
+        display: flex;
+        align-items: center;
+      }
+
+      .links{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        list-style: none;
+
+        a{
+          text-decoration: none;
+        }
+      }
     }
   }
 }

@@ -102,6 +102,10 @@ creare il footer e fare come per l'header
 
 pushare
 
+definire le sezioni
+
+pushare
+
 dare le funzionalità js a header e footer
 
 pushare

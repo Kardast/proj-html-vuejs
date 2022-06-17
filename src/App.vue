@@ -10,6 +10,7 @@
     <!-- Jumbrotron -->
     <section>
 
+      <MyJumbo/>
     </section>
 
     <!-- Main -->
@@ -44,19 +45,23 @@
 
     <!-- Footer -->
     <footer>
-      
+
     </footer>
   </div>
 </template>
 
 <script>
 import MyHeader from './components/MyHeader.vue'
+import MyJumbo from './components/MyJumbo.vue'
+
+undefined
 
 export default {
   name: 'App',
   components: {
-    MyHeader
-  }
+    MyHeader,
+    MyJumbo
+}
 }
 </script>
 
