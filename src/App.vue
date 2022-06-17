@@ -1,6 +1,51 @@
 <template>
   <div id="app">
-    <MyHeader />
+
+    <!-- Header -->
+    <header>
+
+      <MyHeader />
+    </header>
+
+    <!-- Jumbrotron -->
+    <section>
+
+    </section>
+
+    <!-- Main -->
+    <main>
+
+      <!-- Main will be divided in 5 similar sections -->
+      <!-- Section 1 Award-->
+      <section>
+
+      </section>
+
+      <!-- Section 2 Full-Service -->
+      <section>
+
+      </section>
+
+      <!-- Section 3 Move -->
+      <section>
+
+      </section>
+
+      <!-- Section 4 Testimonials -->
+      <section>
+
+      </section>
+
+      <!-- Section 5 Request quote -->
+      <section>
+
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      
+    </footer>
   </div>
 </template>
 
