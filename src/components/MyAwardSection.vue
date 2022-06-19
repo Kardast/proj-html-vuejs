@@ -3,8 +3,11 @@
 
     <!-- This section will contain e blue stripe  on the top and some text + 1 button in the middle -->
     <div class="o-quote">
-        <font-awesome-icon icon="fa-regular fa-paper-plane" />
-        <p>GET A FREE QUOTE ONLINE NOW!</p>
+        <a href="#">
+
+            <font-awesome-icon icon="fa-regular fa-paper-plane" />
+            <p>GET A FREE QUOTE ONLINE NOW!</p>
+        </a>
     </div>
     
     <div class="award-wrapper">
@@ -43,13 +46,20 @@ export default {
         justify-content: center;
         align-items: center;
 
-        .fa-paper-plane{
-            color: white;
-            margin-right: 10px
-        }
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
 
-        p{
-            color: white;
+            .fa-paper-plane{
+                color: white;
+                margin-right: 10px
+            }
+
+            p{
+                color: white;
+            }
         }
     }
     .award-wrapper{

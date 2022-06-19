@@ -14,24 +14,33 @@
 
             <div class="service-card">
 
-                <img src="" alt="">
-                <h3>Two Man Teams</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, sequi, ipsum recusandae quasi rerum excepturi nulla porro incidunt blanditiis fugiat assumenda nesciunt beatae ipsa ducimus impedit accusantium veritatis, similique aspernatur!</p>
-                <a class="button" href="#">READ MORE</a>
+                <img src="../assets/img/avada-movers-serviceonephoto-final-400x255.jpg" alt="avada movers">
+                <div class="texts">
+
+                    <h3>Two Man Teams</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, sequi, ipsum recusandae quasi rerum excepturi nulla porro incidunt blanditiis fugiat assumenda nesciunt beatae ipsa ducimus impedit accusantium veritatis, similique aspernatur!</p>
+                    <a class="button" href="#">READ MORE</a>
+                </div>
             </div>
             <div class="service-card">
 
-                <img src="" alt="">
-                <h3>Two Man Teams</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, sequi, ipsum recusandae quasi rerum excepturi nulla porro incidunt blanditiis fugiat assumenda nesciunt beatae ipsa ducimus impedit accusantium veritatis, similique aspernatur!</p>
-                <a class="button" href="#">READ MORE</a>
+                <img src="../assets/img/avada-movers-servicetwophoto-final-400x255.jpg" alt="avada movers">
+                <div class="texts">
+
+                    <h3>We Do All The Lifting</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, sequi, ipsum recusandae quasi rerum excepturi nulla porro incidunt blanditiis fugiat assumenda nesciunt beatae ipsa ducimus impedit accusantium veritatis, similique aspernatur!</p>
+                    <a class="button" href="#">READ MORE</a>
+                </div>
             </div>
             <div class="service-card">
 
-                <img src="" alt="">
-                <h3>Two Man Teams</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, sequi, ipsum recusandae quasi rerum excepturi nulla porro incidunt blanditiis fugiat assumenda nesciunt beatae ipsa ducimus impedit accusantium veritatis, similique aspernatur!</p>
-                <a class="button" href="#">READ MORE</a>
+                <img src="../assets/img/avada-movers-servicethreephoto-final-400x255.jpg" alt="avada movers">
+                <div class="texts">
+
+                    <h3>Coast To Coast</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, sequi, ipsum recusandae quasi rerum excepturi nulla porro incidunt blanditiis fugiat assumenda nesciunt beatae ipsa ducimus impedit accusantium veritatis, similique aspernatur!</p>
+                    <a class="button" href="#">READ MORE</a>
+                </div>
             </div>
         </div>
     </div>
@@ -50,7 +59,7 @@ export default {
 <style lang="scss">
 .my-service-solution{
     width: 100%;
-    height: 620px;
+    height: 700px;
     background-color: #ffffff;
     display: flex;
     align-items: center;
@@ -59,12 +68,11 @@ export default {
         width: 80%;
         height: 80%;
         margin: 0 auto;
-        background-color: yellow;
 
         .service-text{
             text-align: center;
-            background-color: blue;
             height: 80px;
+            margin-bottom: 10px;
 
             span{
                 font-size: 13px;
@@ -75,6 +83,7 @@ export default {
             h2{
                 color: #6abf17;
                 font-size: 30px;
+                margin-top: 10px;
             }
 
             p{
@@ -96,11 +105,36 @@ export default {
             margin: 0 auto;
 
             .service-card{
-                background-color: red;
+                background-color: #f2f5f8;
                 width: 300px;
-                height: 400px;
-                // button
-                @import '../assets/button.scss';
+                height: 490px;
+                padding: 15px;
+                text-align: center;
+
+                img{
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+
+                .texts{
+                    background-color: white;
+                    padding: 20px 20px 25px 20px;
+                    
+                    h3{
+                        color: #1775bf;
+                        margin-bottom: 10PX;
+                    }
+                    
+                    p{
+                        font-size: 14px;
+                        line-height: 20px;
+                        margin-bottom: 20px;
+                    }
+
+                    // button
+                    @import '../assets/button.scss';
+                }
+
             }
         }
     }
