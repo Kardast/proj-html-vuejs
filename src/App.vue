@@ -32,6 +32,7 @@
       <!-- Section 3 Move -->
       <section>
 
+        <MyMoveEase/>
       </section>
 
       <!-- Section 4 Testimonials -->
@@ -57,6 +58,8 @@ import MyHeader from './components/MyHeader.vue'
 import MyJumbo from './components/MyJumbo.vue'
 import MyAwardSection from './components/MyAwardSection.vue'
 import MyServiceSolution from './components/MyServiceSolution.vue'
+import MyMoveEase from './components/MyMoveEase.vue'
+
 
 export default {
   name: 'App',
@@ -64,7 +67,8 @@ export default {
     MyHeader,
     MyJumbo,
     MyAwardSection,
-    MyServiceSolution
+    MyServiceSolution,
+    MyMoveEase
 }
 }
 </script>

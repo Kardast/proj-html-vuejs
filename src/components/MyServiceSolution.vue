@@ -59,7 +59,7 @@ export default {
 <style lang="scss">
 .my-service-solution{
     width: 100%;
-    height: 700px;
+    height: 800px;
     background-color: #ffffff;
     display: flex;
     align-items: center;
@@ -71,8 +71,6 @@ export default {
 
         .service-text{
             text-align: center;
-            height: 80px;
-            margin-bottom: 10px;
 
             span{
                 font-size: 13px;
@@ -98,7 +96,7 @@ export default {
 
         .cards-wrapper{
             width: 70%;
-            height: calc(100% - 80px);
+            height: calc(100% - 100px);
             display: flex;
             justify-content: space-around;
             align-items: center;
