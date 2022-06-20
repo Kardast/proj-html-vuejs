@@ -8,12 +8,20 @@
 
         <div class="telephone">
 
-          <p> Call us for a Free Quote: 1.800.55.6789</p>
+          <p>
+            <font-awesome-icon icon="fa-solid fa-phone-flip" /> 
+            Call us for a Free Quote: 1.800.55.6789
+          </p>
         </div>
 
+        <!-- My Socials -->
         <ul class="socials">
 
-          <li><a href="#">twitter</a></li>
+          <li v-for="(item, i) in headerSocial" :key="i">
+            <a href="#">
+              <font-awesome-icon :icon="item.social" />
+            </a>
+          </li>
         </ul>
       </div>
     </div>
@@ -23,13 +31,24 @@
       <div class="hbottom-wrapper">
 
         <div class="logo">
-          logo
+          
+          <img src="../assets/img/avada-movers-logo.png" alt="">
         </div>
 
+        <!-- My Links -->
         <ul class="links">
-          <li><a href="#">link</a></li>
-          <li><a href="#">link</a></li>
+
+          <li v-for="(item, k) in headerLinks" :key="k">
+            <a href="#">
+              {{item.link}}
+            </a>
+          </li>
         </ul>
+
+          <div class="button-wrapper">
+
+            <a class="button" href="#">FREE QUOTE</a>
+        </div>
       </div>
     </div>
   </div>
@@ -39,7 +58,12 @@
 
 
 export default {
-  name: 'MyHeader'
+  name: 'MyHeader',
+
+  props: {
+    headerSocial: Array,
+    headerLinks: Array
+  }
 
 }
 </script>
@@ -48,13 +72,11 @@ export default {
 .my-header{
   width: 100%;
   height: 150px;
-  // debug
-  background-color: yellow;
+  background-color: rgba(255, 255, 255, 0.39);
 
   .h-socials{
     width: 100%;
     height: 50px;
-    // debug
     background-color: #6abf17;
 
     .htop-wrapper{
@@ -62,13 +84,12 @@ export default {
       height: 100%;
       margin: 0 auto;
       display: flex;
-      // debug
-      background-color: blue;
 
       .telephone{
         width: 50%;
         display: flex;
         align-items: center;
+        color: white;
       }
 
       .socials{
@@ -77,10 +98,16 @@ export default {
         align-items: center;
         justify-content: end;
         list-style: none;
+        
+        li{
+          margin: 0 15px;
 
-        a{
-          text-decoration: none;
+          a{
+            text-decoration: none;
+            color: white;
+          }
         }
+
       }
     }
   }
@@ -88,16 +115,12 @@ export default {
   .h-links{
     width: 100%;
     height: 100px;
-    // debug
-    background-color: #5f7e41;
 
     .hbottom-wrapper{
       width: 80%;
       height: 100%;
       margin: 0 auto;
       display: flex;
-      // debug
-      background-color: rgb(55, 55, 139);
 
       .logo{
         width: 30%;
@@ -112,10 +135,30 @@ export default {
         justify-content: end;
         list-style: none;
 
-        a{
-          text-decoration: none;
+        li{
+          margin: 0 30px;
+
+          a{
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
+            
+          &:hover{
+            color: blue;
+          }
+          }
         }
       }
+
+        .button-wrapper{
+          width: 200px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          // button
+          @import '../assets/button.scss';
+        }
     }
   }
 }

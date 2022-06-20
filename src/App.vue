@@ -4,7 +4,10 @@
     <!-- Header -->
     <header>
 
-      <MyHeader />
+      <MyHeader 
+      :headerSocial="mySocials"
+      :headerLinks="myLinks"
+      />
     </header>
 
     <!-- Jumbrotron -->
@@ -75,7 +78,47 @@ export default {
     MyMoveEase,
     MyTestimonials,
     MyRequestQuote
-}
+  },
+
+  data(){
+    return{
+      mySocials: [
+        {
+          social: "fa-brands fa-facebook-f"
+        },
+        {
+          social: "fa-brands fa-twitter"
+        },
+        {
+          social: "fa-brands fa-instagram"
+        },
+        {
+          social: "fa-brands fa-youtube"
+        }
+      ],
+
+      myLinks: [
+        {
+          link: "Home",
+        },
+        {
+          link: "Rates",
+        },
+        {
+          link: "Testimonials",
+        },
+        {
+          link: "FAQ",
+        },
+        {
+          link: "Blog",
+        },
+        {
+          link: "Contact",
+        },
+      ]
+    }
+  }
 }
 </script>
 
