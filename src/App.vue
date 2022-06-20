@@ -44,6 +44,7 @@
       <!-- Section 5 Request quote -->
       <section>
 
+        <MyRequestQuote/>
       </section>
     </main>
 
@@ -61,6 +62,7 @@ import MyAwardSection from './components/MyAwardSection.vue'
 import MyServiceSolution from './components/MyServiceSolution.vue'
 import MyMoveEase from './components/MyMoveEase.vue'
 import MyTestimonials from './components/MyTestimonials.vue'
+import MyRequestQuote from './components/MyRequestQuote.vue'
 
 
 export default {
@@ -71,7 +73,8 @@ export default {
     MyAwardSection,
     MyServiceSolution,
     MyMoveEase,
-    MyTestimonials
+    MyTestimonials,
+    MyRequestQuote
 }
 }
 </script>

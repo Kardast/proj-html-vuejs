@@ -69,6 +69,7 @@ export default {
     background-image: url("../assets/img/avada-movers-testimonial-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 100px;
 
 
     .testimonials-wrapper{
@@ -144,10 +145,11 @@ export default {
         .button-wrapper{
             width: 300px;
             margin: 0 auto;
+            text-align: center;
 
             // button
             @import '../assets/button.scss';
-            }
+        }
     }
 }
 
