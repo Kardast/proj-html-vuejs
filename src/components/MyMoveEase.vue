@@ -1,7 +1,7 @@
 <template>
   <div class="my-move-ease">
 
-    <!-- Jumbo will contain bg img and the h1 in the middle -->
+    <!-- This part will contain bg img and the box text in the middle slightly shifted to the right-->
     <div class="move-wrapper">
       <div class="move-bg-wrapper">
         

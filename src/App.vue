@@ -38,6 +38,7 @@
       <!-- Section 4 Testimonials -->
       <section>
 
+        <MyTestimonials/>
       </section>
 
       <!-- Section 5 Request quote -->
@@ -59,6 +60,7 @@ import MyJumbo from './components/MyJumbo.vue'
 import MyAwardSection from './components/MyAwardSection.vue'
 import MyServiceSolution from './components/MyServiceSolution.vue'
 import MyMoveEase from './components/MyMoveEase.vue'
+import MyTestimonials from './components/MyTestimonials.vue'
 
 
 export default {
@@ -68,7 +70,8 @@ export default {
     MyJumbo,
     MyAwardSection,
     MyServiceSolution,
-    MyMoveEase
+    MyMoveEase,
+    MyTestimonials
 }
 }
 </script>
