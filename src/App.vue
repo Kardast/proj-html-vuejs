@@ -54,6 +54,11 @@
     <!-- Footer -->
     <footer>
 
+      <MyFooter
+      :footerLinks="myFooterLinks"
+      :footerPosts="myFooterPosts"
+      :footerSocial="mySocials"
+      />
     </footer>
   </div>
 </template>
@@ -66,6 +71,7 @@ import MyServiceSolution from './components/MyServiceSolution.vue'
 import MyMoveEase from './components/MyMoveEase.vue'
 import MyTestimonials from './components/MyTestimonials.vue'
 import MyRequestQuote from './components/MyRequestQuote.vue'
+import MyFooter from './components/MyFooter.vue'
 
 
 export default {
@@ -77,8 +83,9 @@ export default {
     MyServiceSolution,
     MyMoveEase,
     MyTestimonials,
-    MyRequestQuote
-  },
+    MyRequestQuote,
+    MyFooter
+},
 
   data(){
     return{
@@ -115,6 +122,42 @@ export default {
         },
         {
           link: "Contact",
+        },
+      ],
+
+      myFooterLinks: [
+        {
+          link: "Home",
+        },
+        {
+          link: "Rates",
+        },
+        {
+          link: "Testimonials",
+        },
+        {
+          link: "Blog",
+        },
+        {
+          link: "Free Quote",
+        },
+      ],
+
+      myFooterPosts: [
+        {
+          link: "Heading Out To College?",
+        },
+        {
+          link: "Moving Your Business?",
+        },
+        {
+          link: "Outstanding Quality",
+        },
+        {
+          link: "Cost Of Moving",
+        },
+        {
+          link: "Best Moving Tips",
         },
       ]
     }
