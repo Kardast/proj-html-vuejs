@@ -86,7 +86,7 @@ TABELLA DI MARCIA:
 
 dopo aver creato la struttura base e lo schema disegnato iniziare a creare i componenti che ti serviranno e a definire gli spazi magari con l'utilizzo di colori
 
-fare header con spazi e ide di dove andranno i links ma senza js per Organizzazione
+fare header con spazi e idea di dove andranno i links ma senza js per Organizzazione
 
 pushare
 
@@ -94,7 +94,11 @@ passare al jumbo
 
 pushare
 
-fare le sezioni del main 
+fare le sezioni del main con i commenti
+
+pushare
+ 
+definire le varie sezioni
 
 pushare
 
@@ -102,12 +106,18 @@ creare il footer e fare come per l'header
 
 pushare
 
-definire le sezioni
-
-pushare
-
 dare le funzionalità js a header e footer
+e qua ho utilizzato anche le props per passarmi 
+i dati da App.vue
 
 pushare
 
-pensare alla presentazione funzionale
+rendere dinamica la classe 'here' in header e footer
+
+pushare
+
+includere bottone in fixed che riporta in cima alla pagina
+
+pushare
+
+pensare alla presentazione

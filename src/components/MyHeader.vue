@@ -38,8 +38,12 @@
         <!-- My Links -->
         <ul class="links">
 
-          <li v-for="(item, k) in headerLinks" :key="k">
-            <a href="#">
+          <li 
+          v-for="(item, k) in headerLinks" 
+          :key="k"
+          @click="activeHere(item)"
+          >
+            <a :class="item.active === true ? 'here' : '' " href="#">
               {{item.link}}
             </a>
           </li>
@@ -50,6 +54,10 @@
             <a class="button" href="#">FREE QUOTE</a>
         </div>
       </div>
+    </div>
+
+    <div class="scroll-up-box">
+      <a href="#"><font-awesome-icon icon="fa-solid fa-angle-up" /></a>
     </div>
   </div>
 </template>
@@ -63,6 +71,19 @@ export default {
   props: {
     headerSocial: Array,
     headerLinks: Array
+  },
+
+  methods: {
+    // function that changes "here" class
+    activeHere(myItem){
+      this.headerLinks.forEach(element => {
+        element.active = false
+        if (element.active === false) {
+          myItem.active = true
+        } 
+          console.log(1, element.active);
+      });
+    }
   }
 
 }
@@ -74,6 +95,23 @@ export default {
   height: 150px;
   background-color: rgba(255, 255, 255, 0.39);
 
+  .scroll-up-box{
+    width: 35px;
+    height: 30px;
+    background-color: #394132;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    bottom: 0;
+    right: 80px;
+
+    a{
+      color: white;
+    }
+  }
+  
   .h-socials{
     width: 100%;
     height: 50px;
@@ -138,15 +176,19 @@ export default {
         li{
           margin: 0 30px;
 
+        // here class
+        @import '../assets/myGeneralCss.scss';
+
           a{
             text-decoration: none;
             color: black;
             font-weight: 600;
-            
-          &:hover{
-            color: blue;
+
+            &:hover{
+              color: blue;
+            }
           }
-          }
+
         }
       }
 
@@ -157,10 +199,11 @@ export default {
           justify-content: center;
 
           // button
-          @import '../assets/button.scss';
+          @import '../assets/myGeneralCss.scss';
         }
     }
   }
+
 }
 
 </style>

@@ -62,7 +62,7 @@ export default {
             margin-bottom: 45px;
         }
         // button
-        @import '../assets/button.scss';
+        @import '../assets/myGeneralCss.scss';
     }
 }
 

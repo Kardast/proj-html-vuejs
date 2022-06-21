@@ -11,13 +11,14 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faPaperPlane } from '@fortawesome/free-regular-svg-icons'
 import { faPhoneFlip } from '@fortawesome/free-solid-svg-icons'
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
+import { faAngleUp } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 /* add icons to the library */
-library.add(faPaperPlane, faPhoneFlip, faFacebookF, faTwitter, faInstagram, faYoutube, faAngleRight)
+library.add(faPaperPlane, faPhoneFlip, faFacebookF, faTwitter, faInstagram, faYoutube, faAngleRight, faAngleUp)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)

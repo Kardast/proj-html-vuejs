@@ -107,39 +107,50 @@ export default {
       myLinks: [
         {
           link: "Home",
+          active: true
         },
         {
           link: "Rates",
+          active: false
         },
         {
           link: "Testimonials",
+          active: false
         },
         {
           link: "FAQ",
+          active: false
         },
         {
           link: "Blog",
+          active: false
         },
         {
           link: "Contact",
+          active: false
         },
       ],
 
       myFooterLinks: [
         {
           link: "Home",
+          active: true
         },
         {
           link: "Rates",
+          active: false
         },
         {
           link: "Testimonials",
+          active: false
         },
         {
           link: "Blog",
+          active: false
         },
         {
           link: "Free Quote",
+          active: false
         },
       ],
 

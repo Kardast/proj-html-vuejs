@@ -148,7 +148,7 @@ export default {
             text-align: center;
 
             // button
-            @import '../assets/button.scss';
+            @import '../assets/myGeneralCss.scss';
         }
     }
 }

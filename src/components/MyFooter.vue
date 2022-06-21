@@ -20,8 +20,12 @@
 
                 <ul>
 
-                    <li v-for="(item, i) in footerLinks" :key="i">
-                        <a href="#"><font-awesome-icon icon="fa-solid fa-angle-right" /> {{item.link}}</a>
+                    <li 
+                    v-for="(item, i) in footerLinks" 
+                    :key="i"
+                    @click="activeHere(item)"
+                    >
+                        <a :class="item.active === true ? 'here' : '' " href="#"><font-awesome-icon icon="fa-solid fa-angle-right" /> {{item.link}}</a>
                     </li>
                 </ul>
 
@@ -33,7 +37,10 @@
 
                 <ul>
 
-                    <li v-for="(item, k) in footerPosts" :key="k">
+                    <li 
+                    v-for="(item, k) in footerPosts" 
+                    :key="k"
+                    >
                         <a href="#"><font-awesome-icon icon="fa-solid fa-angle-right" /> {{item.link}}</a>
                     </li>
                 </ul>
@@ -75,7 +82,20 @@ export default {
         footerLinks: Array,
         footerPosts: Array,
         footerSocial: Array
+    },
+
+    methods: {
+    // function that changes "here" class
+    activeHere(myItem){
+      this.footerLinks.forEach(element => {
+        element.active = false
+        if (element.active === false) {
+          myItem.active = true
+        } 
+          console.log(1, element.active);
+      });
     }
+  }
 
 }
 </script>
@@ -104,6 +124,9 @@ export default {
 
                 list-style: none;
                 margin: 40px 0;
+
+                // here class
+                @import '../assets/myGeneralCss.scss';
 
                 a{
 

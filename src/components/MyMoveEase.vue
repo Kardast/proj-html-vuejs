@@ -43,7 +43,7 @@ export default {
     text-align: center;
     color: white;
     // button
-    @import '../assets/button.scss';
+    @import '../assets/myGeneralCss.scss';
     background-color: #5aa511;
     padding: 10px;
     margin-left: 30%;

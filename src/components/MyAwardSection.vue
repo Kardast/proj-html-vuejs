@@ -93,7 +93,7 @@ export default {
             margin-bottom: 25px;
         }
         // button
-        @import '../assets/button.scss';
+        @import '../assets/myGeneralCss.scss';
     }
 }
 

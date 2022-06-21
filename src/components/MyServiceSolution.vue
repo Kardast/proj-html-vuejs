@@ -130,7 +130,7 @@ export default {
                     }
 
                     // button
-                    @import '../assets/button.scss';
+                    @import '../assets/myGeneralCss.scss';
                 }
 
             }
