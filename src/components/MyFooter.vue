@@ -114,11 +114,12 @@ export default {
 
         .f-wrapper{
             width: 70%;
+            min-width: 950px;
             height: 100%;
             margin: 0 auto;
             display: flex;
             align-items: center;
-            padding: 0 50px;
+            justify-content: space-around;
 
             li{
 
@@ -141,7 +142,7 @@ export default {
 
             .f-about{
                 width: 300px;
-                margin: 0 40px;
+                margin: 0 10px;
                 min-width: 300px;
 
                 p{
@@ -152,14 +153,14 @@ export default {
 
             .f-movers{
                 width: 300px;
-                margin: 0 40px; 
+                margin: 0 10px; 
                 min-width: 300px;
 
             }
 
             .f-posts{
                 width: 300px;
-                margin: 0 40px;
+                margin: 0 10px;
                 min-width: 300px;
 
             }

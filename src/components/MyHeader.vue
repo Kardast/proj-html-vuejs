@@ -168,6 +168,7 @@ export default {
 
       .links{
         width: 70%;
+        min-width: 675px;
         display: flex;
         align-items: center;
         justify-content: end;

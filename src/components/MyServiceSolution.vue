@@ -96,6 +96,7 @@ export default {
 
         .cards-wrapper{
             width: 70%;
+            min-width: 950px;
             height: calc(100% - 100px);
             display: flex;
             justify-content: space-around;
